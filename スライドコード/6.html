@@ -1,0 +1,29 @@
+<div class="blue">あいうえお</div>
+
+<style>
+    .blue {
+        width: 100px;
+        background-color: blue;
+        color: white;
+        animation: test_keyframes 3.0s;
+    }
+
+    @keyframes test_keyframes {
+        0% {
+            width: 100px;
+        }
+
+        30% {
+            width: 200px;
+        }
+
+        68%,
+        72% {
+            width: 400px;
+        }
+
+        100% {
+            width: 500px;
+        }
+    }
+</style>
